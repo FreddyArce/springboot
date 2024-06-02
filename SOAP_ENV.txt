@@ -1,0 +1,28 @@
+URL: http://localhost:8080/ws/obtenerEstudiantes
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://emi.bo/app">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:estudiantesRequest>
+         <gs:valor></gs:valor>
+      </gs:estudiantesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+URL: http://localhost:8080/ws/registrarEstudiante
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://emi.bo/app">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:estudiantePayload>
+        <gs:nombre>Roberto</gs:nombre>
+        <gs:apellido>Gomez</gs:apellido>
+        <gs:fechaNacimiento>2023-05-22-04:00</gs:fechaNacimiento>
+        <gs:semestre>2</gs:semestre>
+        <gs:idCiudad>1</gs:idCiudad>
+        <gs:direccion>Av America</gs:direccion>
+      </gs:estudiantePayload>
+   </soapenv:Body>
+</soapenv:Envelope>

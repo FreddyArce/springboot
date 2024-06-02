@@ -1,0 +1,11 @@
+.banner {
+    background: linear-gradient(0deg, blue 0%, #889 50%, blue 100%);
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+img {
+    margin: 5px;
+}
